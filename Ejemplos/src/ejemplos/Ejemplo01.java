@@ -6,7 +6,7 @@
 package ejemplos;
 
 import java.security.SecureRandom;
-// import java.security.*;
+//import java.security.*;
 
 /**
  *
@@ -19,7 +19,7 @@ public class Ejemplo01 {
         int valorA = obtenerNumero(); // 3
         int valorB = obtenerNumero(); // 2
         int suma = obtnerSuma(valorA, valorB);
-        System.out.printf("La suma de %d + %d es igual a: %d\n", 
+        System.out.printf("La suma de %d + %d \nes igual a: %d\n", 
                 valorA,
                 valorB,
                 suma);
