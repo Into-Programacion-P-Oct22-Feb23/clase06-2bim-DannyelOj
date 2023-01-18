@@ -21,13 +21,18 @@ public class Ejemplo02 {
         int a;
         System.out.println("Ingrese el limite de los numeros randoms");
         a=entrada.nextInt();
-        int valorA = obtenerNumero(a); // 3
-        int valorB = obtenerNumero(a); // 2
-        int suma = obtnerSuma(valorA, valorB);
-        System.out.printf("La suma de %d + %d es igual a: %d\n", 
+        if(a>0){
+            int valorA = obtenerNumero(a); // 3
+            int valorB = obtenerNumero(a); // 2
+            int suma = obtnerSuma(valorA, valorB);
+            System.out.printf("La suma de %d + %d es igual a: %d\n", 
                 valorA,
                 valorB,
                 suma);
+        }else{
+            System.out.println("error");
+        }
+        
     }
     
     public static int obtenerNumero(int a) {
